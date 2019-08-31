@@ -1,0 +1,79 @@
+<html>
+<head>
+<title> google </title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen"/>
+
+</head>
+
+
+<body>
+<header>
+<nav>
+<ul id="nav_bar">
+<li class="nav-links" id="gmail"> <a href="https://gmail.com"> Gmail </a> </li>
+<li class="nav-links"> <a href="https://www.google.co.in/imghp?hl=en&tab=wi&ogbl"> Images </a> </li>
+<li id="sign_in"> <a href="https://gmail.com"> sign in</a> </li>
+
+</ul>
+</nav>
+</header>
+
+
+<div class="google">
+<a href="" id="google_logo"> <img src="C:\Users\SOLANKI SAMARTH\Desktop\GOOGLE HOME PAGE\samarth.jpg" alt="Wait Image is Loading"/> 
+</div>
+
+<div class="form">
+<form id="frmSearch" method="get" />
+<input type="text" id="txtSearch" placeholder="Free to Search" />
+
+
+<div class="buttons">
+<input type="submit" value="Search" id="Search">
+<input type="submit" value="I'm Feeling Lucky" id="im_feeling_lucky">
+</div>
+
+
+<script type="text/javascript">
+    document.getElementById('frmSearch').onsubmit = function() {
+        window.location = 'http://www.google.com/search?q=' + document.getElementById('txtSearch').value;
+        return false;
+    }
+</script>
+
+
+
+
+
+
+<footer>
+<ul class="footer-left">
+<li> <a href="https://ads.google.com"> Advertising </a> </li>
+<li> <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1""> Business </a> </li>
+<li> <a href="https://about.google/intl/en_in/?utm_source=google-IN&utm_medium=referral&utm_campaign=hp-footer&fg=1"> About </a> </li>
+<li> <a href="https://www.google.com/search/howsearchworks/?fg=1"> How Search works </a> </li>
+</ul>
+
+<ul class="footer-right">
+<li> <a href="https://policies.google.com/privacy?hl=en&gl=in"> Privacy </a> </li>
+<li> <a href="https://policies.google.com/terms?hl=en&gl=in"> Terms </a> </li>
+<li> <a href="https://www.google.com/preferences?hl=en-IN&fg=1"> Settings </a> </li>
+
+</ul>
+
+
+
+
+
+
+</footer>
+
+
+
+</body>
+
+
+
+
+
+</html>
